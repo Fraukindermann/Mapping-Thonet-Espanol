@@ -1,11 +1,11 @@
 ---
-título: Acerca de
-layout: acerca de
-enlace permanente: /about.html
-# incluir información de CollectionBuilder en la parte inferior
-créditos: true
-# Edite el markdown en este archivo para describir su colección
-# Busque en _includes/feature opciones para añadir fácilmente características a la página
+title: About
+layout: about
+permalink: /about.html
+# include CollectionBuilder info at bottom
+credits: true
+# Edit the markdown on in this file to describe your collection
+# Look in _includes/feature for options to easily add features to the page
 ---
 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
