@@ -23,4 +23,3 @@ La plantilla de repositorio incluye cuatro objetos de las Colecciones Digitales 
 
 Para obtener todos los detalles sobre la creación de su propio sitio de colección, visite Documentación de CollectionBuilder.
 
-Traducción realizada con la versión gratuita del traductor DeepL.com
