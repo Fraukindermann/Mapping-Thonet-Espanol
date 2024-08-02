@@ -19,7 +19,7 @@
 {%- endcomment -%}
 
 {%- if include.featured -%}
-{% assign Temas principales = include.featured | split: ";" %}
+{% assign topTerms = include.featured | split: ";" %}
 {%- else -%}
 
 {% comment %} 
