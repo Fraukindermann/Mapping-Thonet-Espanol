@@ -3,7 +3,7 @@
     Featured Terms button-links.
     This include creates a card with btn links to the Browse page from a set of automatically generated or manually selected terms. Either use the "field" option to auto generate *or* the "featured" option to manually create list of terms.
 
-    E.G. --> {% include index/featured-terms.html field="subject" title="Temas principales" btn-color="outline-info" max=8 %}
+    E.G. --> {% include index/featured-terms.html field="subject" title="Top Terms" btn-color="outline-info" max=8 %}
 
     E.G. --> {% include index/featured-terms.html featured="Example term; Another; One more" title="Topic Areas" btn-color="success" %}
 
@@ -46,7 +46,7 @@
     <div class="card-body">
         {% if include.title %}<h5 class="card-title">{{ include.title }}</h5>{% endif %}
         <p class="card-text">
-            {% for s in topTerms %}
+            {% for s in Temas principales %}
             <a class="btn btn-sm btn-{{ include.btn-color | default: 'primary' }} m-1" href="{{ s | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ s | strip }}</a>{% endfor %}
         </p>
     </div>
