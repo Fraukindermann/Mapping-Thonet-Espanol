@@ -8,7 +8,7 @@ permalink: /locations.html
 cloud-fields: site.data.theme.locations-fields
 ---
 
-## Browse Locations
+## Buscar Localizaciónes
 
-Use this word cloud visualization to browse locations.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Utilice esta visualización de nube de palabras para buscar lugares.
+El tamaño de las palabras viene determinado por la frecuencia y todas ellas enlazan con la correspondiente búsqueda de colecciones.
