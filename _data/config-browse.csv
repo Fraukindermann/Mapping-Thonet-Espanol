@@ -1,4 +1,4 @@
-field,monstrar nombre,btn,hidden,sort_name
+field,display_name,btn,hidden,sort_name
 date,Fecha,,,Fecha
 creator,Creador,,,
 subject,Temas,,,
